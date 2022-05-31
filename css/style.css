@@ -644,7 +644,6 @@ h2,
 h3,
 h4,
 h5,
-h6,
 p,
 label,
 .btn,
@@ -710,7 +709,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 22px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -728,6 +727,11 @@ h1 {
 
 h4 {
     color: #333333!important;
+}
+
+h4, h5, h6 {
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .icons {
@@ -753,7 +757,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 40px 40px 40px 40px;
 }
 
