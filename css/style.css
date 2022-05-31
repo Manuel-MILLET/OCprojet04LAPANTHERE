@@ -1028,17 +1028,20 @@ h4, h5, h6 {
         width: 180px;
         height: 320px;
     }
+    .bloc-mob-center-text {
+        text-align: center;
+    }
+    .bg-banniere {
+        background-image: url("../img/agence-la-panthere-02.jpg");
+    }
+    .bg-presentation {
+        background-image: url("../img/image-de-presentation-02.jpg");
+    }
 }
 
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
-    }
-}
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
     }
 }
