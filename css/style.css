@@ -1,3 +1,9 @@
+/*
+Projet 05 OpenClassromms optimisation SEO
+auteur : Manuel MILLET
+date: 02-07-2022 16h00
+
+-*/
 body {
     margin: 0;
     padding: 0;
@@ -821,13 +827,21 @@ h4, h5, h6 {
     background-image: url("../img/lines-h2-bg.png");
 }
 
-.bg-banniere {
-    background-image: url("../img/agence-la-panthere.jpg");
+
+
+@media (min-width: 768px) {
+    .bg-banniere {
+        background-image: url("../img/agence-la-panthere.jpg");
+    }
+
+    .bg-presentation {
+        background-image: url("../img/image-de-presentation.jpg");
+    }
+
 }
 
-.bg-presentation {
-    background-image: url("../img/image-de-presentation.jpg");
-}
+
+
 
 @media (max-width: 1024px) {
     .bloc {
@@ -1032,10 +1046,10 @@ h4, h5, h6 {
         text-align: center;
     }
     .bg-banniere {
-        background-image: url("../img/agence-la-panthere.jpg");
+        background-color:#364577;
     }
     .bg-presentation {
-        background-image: url("../img/image-de-presentation.jpg");
+        background-color:#364577;
     }
 }
 
